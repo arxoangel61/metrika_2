@@ -1,0 +1,112 @@
+/* Секрия  projects */
+
+.projects {
+  margin-top: 150px;
+}
+
+.projects__title {
+  color: #121212;
+
+  margin-bottom: 30px;
+}
+
+.projects__item {
+}
+.projects__page {
+  display: block;
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+.projects__text {
+  margin-top: 12px;
+  color: #121212;
+}
+.projects__link {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 15px;
+  margin-left: 1px;
+}
+.projects__link a{
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 27px;
+  color: #AD1818;
+  margin-right: 5px;
+}
+
+.projects__btn {
+  margin-top: 93px;
+}
+
+.projects__btn a{
+  border: 1px solid #AD1818;
+  color: #AD1818;
+}
+
+.item__obj {
+  margin-top: 93px;
+}
+
+.projects__btn a:hover{
+  color: #FFFFFF;
+  background-color: #AD1818;
+}
+
+@media (max-width: 1199px) { 
+  .projects {
+    margin-top: 120px;
+  }
+
+  .projects__text {
+    margin-top: 15px;
+  }
+
+  .projects__link {
+    margin-top: 10px;
+  }
+
+  .projects__link a {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .projects__page {
+    height: 450px;
+    display: block;
+    width: 100%;
+  }
+  .item__obj {
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 500px) {
+  .projects {
+    margin-top: 77px;
+  }
+  .container-inline {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .projects__title {
+    margin-bottom: 22px;
+  }
+  .projects__text {
+    margin-top: 20px;
+  }
+  .projects__link a {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .item__obj {
+    margin-top: 50px;
+  }
+  .projects__page {
+    display: block;
+    width: 100%;
+    height: 250px;
+  }
+
+}
